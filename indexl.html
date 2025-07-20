@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FESSA Bank - Faculty of Environmental Studies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1>FESSA Study Bank</h1>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <p>Your Hub For Past Questions </p>
+  </header>
+
+  <section class="departments" id="departments">
+    <h2>Departments</h2>
+    <ul>
+      <li><a href="arch.html">Architecture</a></li>
+      <li><a href="building.html">Building</a></li>
+      <li><a href="estate.html">Estate Management</a></li>
+      <li><a href="fineart.html">Fine Art</a></li>
+      <li><a href="gls.html">Geo-Informatics & Land Surveying</a></li>
+      <li><a href="qs.html">Quantity Surveying</a></li>
+      <li><a href="urp.html">Urban & Regional Planning</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FESSA Bank</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
